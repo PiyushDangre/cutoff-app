@@ -91,8 +91,10 @@ include '../db/db_connect.php';
 						<select class="form-control" id="sel1" name="college">
 							<option>GHRCE, Nagpur</option>
 							<option>YCCE, Nagpur</option>
-							<option>RKNEC, Nagpur</option>
-						
+							<option>RCOEM, Nagpur</option>
+							<option>KDKCE, Nagpur</option>
+							<option>PCOE, Nagpur</option>
+							<option>RGCER, Nagpur</option>
 						</select>
 					</div>
 				</div>
