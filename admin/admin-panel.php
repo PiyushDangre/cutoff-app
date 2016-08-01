@@ -3,7 +3,7 @@
 // Admin panel for putting data in tables
 // Author: Piyush Dangre
 
-include 'db_connect.php';
+include '../db/db_connect.php';
 
 ?>
 
