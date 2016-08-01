@@ -4,4 +4,4 @@ This is the repository for the cutoff app that I am developing. This is an andro
 accordingly predicts the college that they qualify for taking admission.
 
 The folder and file names are in lower-cases
-The variable and function names are in camel-cases
+.The variable and function names are in camel-cases
