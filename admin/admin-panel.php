@@ -93,7 +93,7 @@ include '../db/db_connect.php';
 				<div class="form-group">
 					<label class="control-label" for="college">College:</label>
 					<div>
-						<select class="form-control" id="sel1" name="college">
+						<select class="form-control" id="college">
 							<option>GHRCE, Nagpur</option>
 							<option>YCCE, Nagpur</option>
 							<option>RCOEM, Nagpur</option>
@@ -104,18 +104,57 @@ include '../db/db_connect.php';
 					</div>
 				</div>
 				<div class="form-group">
-					<label class="control-label" for="pwd">Password:</label>
+					<label class="control-label" for="branch">Branch:</label>
 					<div> 
-					  <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+					  <select class="form-control" id="branch">
+							<option>Civil Engineering</option>
+							<option>Computer Science and Engineering</option>
+							<option>Information Technology</option>
+							<option>Electrical Engineering</option>
+							<option>Electronics Design Technology</option>
+							<option>Electronics and Communication Engineering</option>
+							<option>Electronics Engineering</option>
+							<option>Industrial Engineering</option>
+							<option>Mechanical Engineering</option>
+							<option>Computer Technology</option>
+							<option>Bio Technology</option>
+							<option>Chemical Engineering</option>
+							<option>Power Engineering</option>
+							<option>Mining Engineering</option>
+						</select>
 					</div>
 				</div>
-				<div class="form-group"> 
-					<div>
-					  <div class="checkbox">
-						<label><input type="checkbox"> Remember me</label>
-					  </div>
+				<div class="row repeat-row">
+					<div class="form-group col-md-6 col-sm-6 col-xs-6">
+						<label class="control-label" for="quota">Quota</label>
+						<div>  
+							<select class="form-control" id="branch">
+								<option>Civil Engineering</option>
+								<option>Computer Science and Engineering</option>
+								<option>Information Technology</option>
+								<option>Electrical Engineering</option>
+								<option>Electronics Design Technology</option>
+								<option>Electronics and Communication Engineering</option>
+								<option>Electronics Engineering</option>
+								<option>Industrial Engineering</option>
+								<option>Mechanical Engineering</option>
+								<option>Computer Technology</option>
+								<option>Bio Technology</option>
+								<option>Chemical Engineering</option>
+								<option>Power Engineering</option>
+								<option>Mining Engineering</option>
+							</select>
+						</div>
 					</div>
-				</div>
+					
+					<div class="form-group col-md-6 col-sm-6 col-xs-6">
+						<label class="control-label" for="merit_no">Merit List No.</label>
+						<div>  
+							<input type="number" class="form-control" id="merit_no" placeholder="Enter Cutoff Merit No."></input>
+						</div>
+					</div>
+					
+				</div>		
 				<div class="form-group"> 
 					<div>
 					  <button type="submit" class="btn btn-primary btn-block">Submit</button>
