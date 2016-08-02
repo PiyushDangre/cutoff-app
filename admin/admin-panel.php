@@ -66,7 +66,7 @@ include '../db/db_connect.php';
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="admin-panel.php"><span class="glyphicon glyphicon-user"></span>&nbsp;Users</a></li>
+        <li class="active"><a href="admin-panel.php"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
 		<li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Log Out</a></li>  		
       </ul>
     </div>
@@ -83,6 +83,11 @@ include '../db/db_connect.php';
 <br> <!--SPACING-->
 	<!-- END ROW 1---->
 	<div class="container">
+		<ul class="nav nav-tabs">
+			  <li role="presentation" class="active"><a href="#">Enter Data</a></li>
+			  <li role="presentation"><a href="#">View Records</a></li>
+		</ul>
+		<br>
 		<div class="col-md-8 col-sm-8">
 			<form class="form-vertical" role="form">
 				<div class="form-group">
